@@ -23,22 +23,22 @@ const cohorts = [
   {
     number: '9.1',
     title: 'Full Stack Development',
-    image: '/midjourney/9.1.png',
+    image: '/midjourney/image_1.png',
   },
   {
     number: '9.2',
     title: 'Full Stack Development',
-    image: '/midjourney/9.2.png',
+    image: '/midjourney/image_2.png',
   },
   {
     number: '9.3',
     title: 'Full Stack Development',
-    image: '/midjourney/9.3.png',
+    image: '/midjourney/image_3.png',
   },
   {
     number: '9.4',
     title: 'Full Stack Development',
-    image: '/midjourney/9.4.png',
+    image: '/midjourney/image_4.png',
   },
 ];
 

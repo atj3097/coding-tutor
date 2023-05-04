@@ -1,17 +1,17 @@
 import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './homepage';
+import Messaging from './messaging/messaging';
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-      </Switch>
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route exact path='/chat' element={<Messaging />} />
+      </Routes>
     </Router>
   );
 }
 
 export default App;
-
